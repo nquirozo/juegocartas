@@ -7,6 +7,8 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { LoginComponent } from './components/login/login.component';
 import { MesaJuegoComponent } from './components/mesa-juego/mesa-juego.component';
 import { JugadorComponent } from './components/jugador/jugador.component';
+import { CartaComponent } from './components/carta/carta.component';
+import { ManoComponent } from './components/mano/mano.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { JugadorComponent } from './components/jugador/jugador.component';
     NavbarComponent,
     LoginComponent,
     MesaJuegoComponent,
-    JugadorComponent
+    JugadorComponent,
+    CartaComponent,
+    ManoComponent
   ],
   imports: [
     BrowserModule,

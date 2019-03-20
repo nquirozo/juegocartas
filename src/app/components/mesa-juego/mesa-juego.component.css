@@ -1,6 +1,7 @@
 .mesa{
     background-color: #477148;
-    height: 100vh;
+    height: 75vh;
+    width: 75vw;
 }
 
 .vertical{
@@ -9,4 +10,14 @@
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.mesa-jugador{
+    width:33.3333%;
+    height: 33.3333%;
+    color:white;
+    font-weight: 600;
+}
+.si{
+    transform: rotate(120deg) translate(40%, 0px);
 }

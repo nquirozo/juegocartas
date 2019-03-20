@@ -1,16 +1,35 @@
-<div class="mesa">
-  <div class="row"><app-jugador nombre="Jugador 1"></app-jugador></div>
-  
-  <div class="row">
-    <div col-2>
-      <app-jugador nombre="Jugador 2"></app-jugador>
-    </div>
-    <div class="col-8"></div>
-    <div class="col-2">
-      <app-jugador class="vertical" nombre="Jugador 3"></app-jugador>
-    </div>
-  </div>
-  <div class="row">
-    <app-jugador nombre="Jugador 4"></app-jugador>
-  </div>
-</div>
+<table class="mesa">
+  <tr>
+      <td  class="mesa-jugador" class="si"> 
+        <app-jugador nombre="Jugador 1"></app-jugador>
+      </td>
+      <td class="mesa-jugador"> 
+        <app-jugador nombre="Jugador 2"></app-jugador>
+      </td>
+      <td class="mesa-jugador"> 
+        <app-jugador nombre="Jugador 3"></app-jugador>
+      </td>
+  </tr>
+  <tr>
+      <td class="mesa-jugador"> 
+        <app-jugador nombre="Jugador 4"> </app-jugador>
+      </td>
+      <td class="mesa-jugador"> 
+        <app-jugador nombre="CENTRO MESA"></app-jugador>
+      </td>
+      <td class="mesa-jugador"> 
+        <app-jugador nombre="Jugador 6"> </app-jugador>
+      </td>
+    </tr>
+    <tr>
+        <td class="mesa-jugador"> 
+          <app-jugador nombre="Jugador 7"> </app-jugador>
+        </td>
+        <td class="mesa-jugador"> 
+          <app-jugador nombre="Jugador 8"> </app-jugador>
+        </td>
+        <td class="mesa-jugador"> 
+          <app-jugador nombre="Jugador 9"> </app-jugador>
+        </td>
+      </tr>
+</table>
